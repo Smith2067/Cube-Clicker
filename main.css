@@ -1,0 +1,43 @@
+body{
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+#click{
+    height: 460px;
+    width: 460px;
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#participate{
+   opacity: 0%;
+   transition: 3s;
+}
+
+#Award{
+    opacity: 0%;
+    transition: 3s;
+}
+ 
+#Star{
+    opacity: 0%;
+    transition: 3s;
+}
+
+button{
+    width: 200px;
+}
